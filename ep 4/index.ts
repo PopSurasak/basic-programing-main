@@ -127,3 +127,16 @@ function amt(c: string, m: string) {
 }
 
 amt('อยากกินขนม', 'm')//แบบฝึกในห้อง
+const str: string ='ยายมอยขายมี ยายมีขายหอย'
+
+//console.log(str.trim()) // เอา space ออกทั้งคู่
+//console.log(str.trimStart()) // เอา space ด้านหน้าออก
+//console.log(str.trimEnd()) // เอา space ด้านหลังออก
+const str: string ='ยายมอยขายมี ยายมีขายหอย'
+
+console.log(str.indexOf('ขาย')) // index ของคำไหน
+//console.log(str.includes('หอย'))
+
+const str: string = 'นายธนภัทร ทดสอบ'
+
+console.log(str.slice(3,9))
