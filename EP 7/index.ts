@@ -1,12 +1,12 @@
 const score = [10,23,30,33]
 
-let sum:number = 0 
+let ssum:number = 0 
 
 for (let i = 0; i < score.length; i++){
-    sum = sum + score [i]
+    ssum = ssum + score [i]
 }
-let avg = sum/score.length // ค่าเฉลี่ย
-console.log ("total:",sum) // หาผลรวม for loop
+let avg = ssum/score.length // ค่าเฉลี่ย
+console.log ("total:",ssum) // หาผลรวม for loop
 console.log ("Avg",avg)// หาค่าเฉลี่ย for loop
 
 
@@ -33,9 +33,9 @@ console.log(susArray)//Arrayคือ[] ทำให้ใช้คำสั่�
 
 
 
-const sus: string = "ควาย*ช้าง*จระเข้*แมว"
+const ssus: string = "ควาย*ช้าง*จระเข้*แมว"
 
-const susArray: string[] = sus.split("*")
+const susAsrray: string[] = sus.split("*")
 
 console.log("ตั้งต้น",susArray)
 
@@ -83,7 +83,7 @@ friendNameArray.reverse()
 console.log(friendNameArray)//แบบฝึกหัด
 
 
-const me = {
+const meie = {
     firstName: 'Isus',
     lastName: 'zazazalnw',
     age:10,
@@ -97,6 +97,8 @@ const me = {
     zipcode:'2910839173',
     Email:'dkopdjlspdldpaw@gamil.com'//การบ้าน
 }
+
+console.log(me.firstName)
 
 //ประวัติส่วนตัว
 
